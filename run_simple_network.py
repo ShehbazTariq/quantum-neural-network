@@ -6,8 +6,8 @@ import numpy as np
 
 sys.path.append('qnn')
 
-from config import Config
-from quantum_network_circuit import QuantumNetworkCircuit
+from qnn.config import Config
+from qnn.quantum_network_circuit import QuantumNetworkCircuit
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger('qiskit').setLevel(logging.WARN)
