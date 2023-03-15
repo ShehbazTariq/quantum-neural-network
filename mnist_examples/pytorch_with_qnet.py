@@ -19,7 +19,7 @@ from torchvision import datasets, transforms
 import torchsummary
 from matplotlib import pyplot as plt
 
-from qnet import QNet
+from qnn.qnet import QNet
 
 test_accuracy_list = []
 training_accuracy_list = []

@@ -3,7 +3,7 @@ from math import log
 
 import numpy as np
 from qiskit import QuantumRegister, QuantumCircuit, ClassicalRegister, execute, transpile
-from qiskit.aqua.utils import get_subsystems_counts
+from qnet import get_subsystems_counts
 from qiskit.quantum_info import Pauli, Statevector
 
 from config import Config

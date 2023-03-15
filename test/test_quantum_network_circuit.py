@@ -6,8 +6,8 @@ from unittest import TestCase
 
 from qiskit import QuantumCircuit, Aer, execute
 
-from config import Config
-from quantum_network_circuit import QuantumNetworkCircuit
+from qnn.config import Config
+from qnn.quantum_network_circuit import QuantumNetworkCircuit
 
 default_config = Config('vector', ansatz_type='sim_circ_13_half', layers=1)
 

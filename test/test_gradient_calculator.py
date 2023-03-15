@@ -5,9 +5,9 @@ import numpy as np
 
 sys.path.append('quantum-neural-network')
 
-from config import Config
-from gradient_calculator import calculate_gradient_list
-from quantum_network_circuit import QuantumNetworkCircuit
+from qnn.config import Config
+from qnn.gradient_calculator import calculate_gradient_list
+from qnn.quantum_network_circuit import QuantumNetworkCircuit
 
 
 class TestGradientCalculator(TestCase):
